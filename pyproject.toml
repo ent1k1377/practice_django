@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "practice-django"
+version = "0.1.0"
+description = ""
+authors = ["DESKTOP-RC54URQ\\ent1k <ent1k1337@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "practice_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.5"
+django-crispy-forms = "^1.14.0"
+django-cleanup = "^6.0.0"
+pillow = "^9.4.0"
+django-ckeditor = "^6.5.1"
+django-allauth = "^0.52.0"
+channels = "^4.0.0"
+python-dotenv = "^0.21.1"
+django-braces = "^1.15.0"
+mkdocs = "^1.4.2"
+mkdocs-material = "^9.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
